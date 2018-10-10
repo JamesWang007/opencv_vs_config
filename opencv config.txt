@@ -1,0 +1,45 @@
+===================================
+1.  opencv 3.x
+==========
+C/C++ -> General -> Additional Include Directories:
+D:\MyData\opencv341\build\include
+	
+Linker -> General -> Additional Library Directiories:
+D:\MyData\opencv341\build\x64\vc14\lib
+
+Linker -> Input -> Additional Dependencies:
+opencv_world341d.lib
+
+
+
+===================================
+2.	opencv 2.x
+==========
+VC++ Directories -> Include Directiories:
+D:\MyData\opencv\opencv231\include
+D:\MyData\opencv\opencv231\include\opencv
+D:\MyData\opencv\opencv231\include\opencv2
+
+
+VC++ Directories -> library Directories:
+D:\MyData\opencv\opencv231\build\x86\vc10\bin
+D:\MyData\opencv\opencv231\build\x86\vc10\lib
+
+
+Linker -> Input -> Additional Include Directories:
+opencv_calib3d231d.lib
+opencv_contrib231d.lib
+opencv_core231d.lib
+opencv_features2d231d.lib
+opencv_flann231d.lib
+opencv_gpu231d.lib
+opencv_haartraining_engined.lib
+opencv_highgui231d.lib
+opencv_imgproc231d.lib
+opencv_legacy231d.lib
+opencv_ml231d.lib
+opencv_objdetect231d.lib
+opencv_ts231d.lib
+opencv_video231d.lib
+
+
